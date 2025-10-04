@@ -29,6 +29,24 @@ fruits = ["apple", "banana", "cherry"]
 fruits.append("orange")
 print(fruits[0])        # "apple"
 ```
+
+```python
+
+a_fruits=[]
+for fruits in fruits:
+    if fruits[0].lower()=='a':
+        a_fruits.append(fruit)
+
+a_fruits=[ f.lower() for f in fruits if f[0].lower()=='a' ]
+a_fruits=filter(lamda f:f[0].lower()=='a' , fruids)
+a_fruits=list(map(lamda f:f[0].lower()=='a' , fruids))
+
+```
+Let’s Replace All For Loops With Map and Filter
+
+https://www.youtube.com/watch?v=ylzo04lU9Xs
+
+
 ### ➤ Tuple (Immutable, Ordered)
 ```python
 point = (3, 4)
